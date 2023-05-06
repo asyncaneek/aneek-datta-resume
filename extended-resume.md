@@ -65,11 +65,11 @@ subject: 'Subject'
 
 ### Senior Software Developer, *CarteNav Solutions Inc.*
 ##### 2022 - Present | Halifax, NS
-- Improved Developer Processes [Python, .NET] - Led initiative resulting in ~10X decrease in task completion time through workflows.
-- Improved Mapping Engine [C++, OpenGL] - Created widget for improved integration with 3rd party mapping engine and developed rendering pipeline to overlay graphics on map.
-- Developed Units and Formatting Library [C++] - Created library for centralized unit format conversions with support for localization and input dialogs.
-- Developed Tactical Information Exchange Server [Rust] - Designed self-describing data exchange protocol for coordinating completion of objectives, developed server using YEW and Axum frameworks, and prototyped network topology models.
-- Demonstrated leadership by mentoring 3 coop students and 2 junior developers. Handled task assignment and provided guidance with detailed code reviews.
+- Developer Processes [Python, .NET] - Took the lead in an initiative to improve developer processes, resulting in ~10X decrease in the time required to complete tasks. Created workflows using cmake, conan, python scripts and powershell scripts 
+- Mapping Engine [C++, OpenGL] - Improved integration with 3rd party mapping engine solution through a comprehensive abstraction layer. The resulting code was encapsulated in a widget that was vastly easier to debug and open to extension. Supported map formats such as vector, raster, Web Map Service (WMS), and Electronic Navigation Chart (ENC) types, with the capability to handle map features and styling with granular detail. Developed a rendering pipeline to render application layer graphics to overlay on the map such as symbology, vector graphics, geo rectified imagery, labels etc.
+- Units and Formatting Library [C++] - Developed a library to define conversions between unit format types in a centralized location. Strong typing units reduced ambiguity in code for the reader and the compiler and mitigated bugs resulting from wrong interpretation of data in the application. The library also supported state to track the current user selected format and support for formatting strings while accounting for localization. The library was extended with a input dialogs library to allow operators to input values in known formats, but allow the data to be stored in the internally standardized format to ease inputting values values when broadcasted over the network.
+- Tactical Information Exchange Server [Rust] - Designed a flexible and self describing data exchange protocol to exchange data between a tasking authority and several field assets to be able to coordinate completion of objectives. Developed a server to statically serve a frontend using the YEW framework in Rust. Supporting backend server, developed using Axum in Rust, could be commanded and queried to enable automated exchange of status and data. Prototyped open ended network topology models to support network connections over low-bandwidth SATCOM or direct line of sight. 
+Leadership - mentored 3 coop students and junior developers. Supported development and tasking with low risk areas of code 
 
 ### Team Lead - Intermediate Software Developer, *CarteNav Solutions Inc.*
 ##### 2020 - 2022 | Halifax, NS
